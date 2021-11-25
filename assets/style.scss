@@ -1,0 +1,36 @@
+.colors{
+    .color{
+        width:150px;
+        height: 150px;
+        border: 1px solid;
+        border-radius: 50%;
+        margin-top: 20px;
+        span{
+            display: flex;
+            justify-content: center;
+            margin-top: 55px;
+        }
+    }
+    #red{
+        background-color: red;
+    }
+    #blue{
+        background-color: blue;
+    }
+    #green{
+        background-color: green;
+    }
+}
+.dropzone{
+    display: flex;
+    height:230px;
+    width: 230px;
+    border: 1px solid;
+    border-radius: 50%;
+    span{
+        display: flex;
+        align-items: center;
+        margin-left: 70px;
+        
+    }
+}
